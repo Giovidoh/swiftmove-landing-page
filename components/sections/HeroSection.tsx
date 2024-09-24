@@ -19,7 +19,7 @@ const HeroSection = () => {
                         Devenez partie prenante d'un projet innovant et rentable
                         dans le secteur de la logistique moderne.
                     </p>
-                    <Button className="flex items-center font-semibold bg-white text-black gap-2 mt-10 px-10 py-6">
+                    <Button className="flex items-center font-semibold bg-white hover:bg-white hover:bg-opacity-80 text-black gap-2 mt-10 px-10 py-6">
                         <Wallet size={20} color="black" strokeWidth={1.5} />
                         Investir Maintenant
                     </Button>

@@ -9,6 +9,9 @@ const config: Config = {
     ],
     theme: {
         extend: {
+            backgroundImage: {
+                "hero-image": "url(../public/assets/hero-image.jpg)",
+            },
             colors: {
                 background: "hsl(var(--background))",
                 foreground: "hsl(var(--foreground))",

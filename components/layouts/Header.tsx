@@ -33,7 +33,7 @@ const navLinks = [
 const Header = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
     return (
-        <header className="relative flex justify-between items-center px-14 py-3 shadow-md">
+        <header className="relative flex justify-between items-center w-full px-5 sm:px-14 py-3 shadow-md">
             <div>
                 <h1 className="font-bold text-xl">SwiftMove</h1>
             </div>
@@ -46,8 +46,8 @@ const Header = () => {
             </nav>
             <div className="hidden lg:flex gap-3">
                 <Button>S'inscrire</Button>
-                <Button className="flex gap-2">
-                    <Wallet size={20} color="white" />
+                <Button className="flex items-center gap-2">
+                    <Wallet size={20} color="white" strokeWidth={1.5} />
                     Investir Maintenant
                 </Button>
             </div>
@@ -65,7 +65,7 @@ const Header = () => {
                     scale: toggleMenu ? 1 : 0.95,
                 }}
                 transition={{ duration: 0.2, ease: "easeIn" }}
-                className="absolute right-0 top-full flex lg:hidden flex-col items-center bg-white border gap-3 p-10 rounded-md"
+                className={`absolute right-0 top-full lg:hidden flex flex-col items-center bg-white border gap-3 p-10 rounded-md z-10`}
             >
                 <nav className="flex min-[750px]:hidden flex-col gap-4">
                     {navLinks.map((link, index) => (
@@ -80,8 +80,8 @@ const Header = () => {
                 </nav>
                 <div className="flex lg:hidden flex-col gap-3">
                     <Button>S'inscrire</Button>
-                    <Button className="flex gap-2">
-                        <Wallet size={20} color="white" />
+                    <Button className="flex items-center gap-2">
+                        <Wallet size={20} color="white" strokeWidth={1.5} />
                         Investir Maintenant
                     </Button>
                 </div>

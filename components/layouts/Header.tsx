@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Menu, Wallet } from "lucide-react";
 import React, { useState } from "react";
 import { Button } from "../ui/button";
+import { motion } from "framer-motion";
 
 // Navigation links
 const navLinks = [
@@ -50,36 +51,41 @@ const Header = () => {
                     Investir Maintenant
                 </Button>
             </div>
-            <button
+            <motion.button
                 className="block lg:hidden"
                 onClick={() => setToggleMenu((prev) => !prev)}
+                whileTap={{ scale: 0.9 }}
             >
                 <Menu size={24} color="black" />
-            </button>
-            {toggleMenu ? (
-                <div className="absolute right-0 top-full flex flex-col items-center gap-3 p-10">
-                    <nav className="flex min-[750px]:hidden flex-col gap-4">
-                        {navLinks.map((link, index) => (
-                            <Link
-                                key={index}
-                                href={link.href}
-                                className="text-center"
-                            >
-                                {link.text}
-                            </Link>
-                        ))}
-                    </nav>
-                    <div className="flex lg:hidden flex-col gap-3">
-                        <Button>S'inscrire</Button>
-                        <Button className="flex gap-2">
-                            <Wallet size={20} color="white" />
-                            Investir Maintenant
-                        </Button>
-                    </div>
+            </motion.button>
+            <motion.div
+                animate={{
+                    opacity: toggleMenu ? 1 : 0,
+                    x: toggleMenu ? 0 : "100%",
+                    scale: toggleMenu ? 1 : 0.95,
+                }}
+                transition={{ duration: 0.2, ease: "easeIn" }}
+                className="absolute right-0 top-full flex lg:hidden flex-col items-center bg-white border gap-3 p-10 rounded-md"
+            >
+                <nav className="flex min-[750px]:hidden flex-col gap-4">
+                    {navLinks.map((link, index) => (
+                        <Link
+                            key={index}
+                            href={link.href}
+                            className="text-center"
+                        >
+                            {link.text}
+                        </Link>
+                    ))}
+                </nav>
+                <div className="flex lg:hidden flex-col gap-3">
+                    <Button>S'inscrire</Button>
+                    <Button className="flex gap-2">
+                        <Wallet size={20} color="white" />
+                        Investir Maintenant
+                    </Button>
                 </div>
-            ) : (
-                ""
-            )}
+            </motion.div>
         </header>
     );
 };

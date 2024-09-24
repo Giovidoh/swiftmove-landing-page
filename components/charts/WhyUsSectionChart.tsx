@@ -55,7 +55,7 @@ const WhyUsSectionChart = () => {
             <CardContent className="h-1/2">
                 <ChartContainer config={chartConfig}>
                     <BarChart accessibilityLayer data={chartData}>
-                        <CartesianGrid vertical={false} />
+                        <CartesianGrid vertical={true} />
                         <XAxis
                             dataKey="month"
                             tickLine={false}

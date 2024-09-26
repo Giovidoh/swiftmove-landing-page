@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import { Button } from "../ui/button";
 import { Wallet } from "lucide-react";

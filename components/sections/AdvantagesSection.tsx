@@ -7,12 +7,17 @@ const AdvantagesSection = () => {
     return (
         <section
             id="advantages"
-            className="flex justify-center w-full px-5 sm:px-14 py-10 md:py-20"
+            className="flex justify-center w-full px-5 sm:px-14 py-20"
         >
-            <div className="container flex flex-col items-center w-full gap-20">
-                <h2 className="font-semibold text-xl sm:text-2xl lg:text-4xl text-center">
-                    Les avantages de SwiftMove
-                </h2>
+            <div className="container flex flex-col items-center w-full gap-10">
+                <div className="flex flex-col items-center gap-4">
+                    <h2 className="font-semibold text-xl sm:text-2xl lg:text-4xl text-center">
+                        Les avantages de SwiftMove
+                    </h2>
+                    <p className="text-gray-500 text-sm lg:text-base text-center">
+                        Voici ce que nous vous offrons.
+                    </p>
+                </div>
                 <div className="flex items-center w-full gap-5">
                     <div className="flex flex-col gap-4 w-full lg:w-1/2">
                         <IconTextCard

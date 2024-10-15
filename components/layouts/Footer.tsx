@@ -12,7 +12,7 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 
 const Footer = () => {
     return (
-        <footer className="flex justify-center bg-primary text-primary-foreground w-full px-5 sm:px-14 pt-10 md:pt-20 pb-4 md:pb-10">
+        <footer className="flex justify-center bg-primary text-primary-foreground w-full px-5 sm:px-14 py-20">
             <div className="container flex flex-col gap-20">
                 <div className="flex flex-wrap justify-between gap-20 w-full">
                     <div>

@@ -6,7 +6,7 @@ const HowItWorksSection = () => {
     return (
         <section
             id="how-it-works"
-            className="flex justify-center w-full px-5 sm:px-14 py-5 md:py-14"
+            className="flex justify-center w-full px-5 sm:px-14 py-20"
         >
             <div className="container flex flex-col items-center w-full gap-16">
                 <div className="flex flex-col items-center gap-3">

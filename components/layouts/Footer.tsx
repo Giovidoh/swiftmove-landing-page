@@ -1,5 +1,14 @@
 import React from "react";
 import Link from "next/link";
+import {
+    Dialog,
+    DialogContent,
+    DialogDescription,
+    DialogHeader,
+    DialogTitle,
+    DialogTrigger,
+} from "@/components/ui/dialog";
+import { ScrollArea } from "@/components/ui/scroll-area";
 
 const Footer = () => {
     return (
@@ -22,10 +31,138 @@ const Footer = () => {
                         <div className="flex flex-col gap-4">
                             <h3 className="font-semibold">Ressources</h3>
                             <div className="flex flex-col gap-2">
-                                <Link href="#">Conditions d'utilisation</Link>
-                                <Link href="#">
-                                    Politique de confidentialité
-                                </Link>
+                                <Dialog>
+                                    <DialogTrigger className="text-start">
+                                        Conditions d'utilisation
+                                    </DialogTrigger>
+                                    <DialogContent>
+                                        <DialogHeader>
+                                            <div className="flex flex-col items-center gap-5">
+                                                <DialogTitle>
+                                                    CONDITIONS D’UTILISATIONS
+                                                </DialogTitle>
+                                                <ScrollArea className="w-full max-h-[600px] px-5">
+                                                    <DialogDescription className="flex flex-col text-primary gap-4">
+                                                        <div className="border-b pb-3">
+                                                            <p className="font-semibold text-pretty text-justify">
+                                                                Bienvenue sur
+                                                                SwiftMove. En
+                                                                utilisant notre
+                                                                site et nos
+                                                                services, vous
+                                                                acceptez de
+                                                                respecter les
+                                                                présentes
+                                                                conditions
+                                                                générales
+                                                                d'utilisation
+                                                                (les
+                                                                "Conditions").
+                                                                Veuillez les
+                                                                lire
+                                                                attentivement
+                                                                avant d'utiliser
+                                                                nos services.
+                                                            </p>
+                                                        </div>
+                                                        <div className="flex flex-col border-b gap-2 pb-3">
+                                                            <h3 className="font-semibold text-lg">
+                                                                1. Acceptation
+                                                                des Conditions
+                                                            </h3>
+                                                            <p className="text-pretty text-justify">
+                                                                Bienvenue sur
+                                                                SwiftMove. En
+                                                                utilisant notre
+                                                                site et nos
+                                                                services, vous
+                                                                acceptez de
+                                                                respecter les
+                                                                présentes
+                                                                conditions
+                                                                générales
+                                                                d'utilisation
+                                                                (les
+                                                                "Conditions").
+                                                                Veuillez les
+                                                                lire
+                                                                attentivement
+                                                                avant d'utiliser
+                                                                nos services.
+                                                            </p>
+                                                        </div>
+                                                    </DialogDescription>
+                                                </ScrollArea>
+                                            </div>
+                                        </DialogHeader>
+                                    </DialogContent>
+                                </Dialog>
+                                <Dialog>
+                                    <DialogTrigger className="text-start">
+                                        Politique de confidentialité
+                                    </DialogTrigger>
+                                    <DialogContent>
+                                        <DialogHeader>
+                                            <div className="flex flex-col items-center gap-5">
+                                                <DialogTitle>
+                                                    POLITIQUE DE CONFIDENTIALITÉ
+                                                </DialogTitle>
+                                                <ScrollArea className="w-full max-h-[600px] px-5">
+                                                    <DialogDescription className="flex flex-col text-primary gap-4">
+                                                        <div className="border-b pb-3">
+                                                            <p className="font-semibold text-pretty text-justify">
+                                                                Bienvenue sur
+                                                                SwiftMove. En
+                                                                utilisant notre
+                                                                site et nos
+                                                                services, vous
+                                                                acceptez de
+                                                                respecter les
+                                                                présentes
+                                                                conditions
+                                                                générales
+                                                                d'utilisation
+                                                                (les
+                                                                "Conditions").
+                                                                Veuillez les
+                                                                lire
+                                                                attentivement
+                                                                avant d'utiliser
+                                                                nos services.
+                                                            </p>
+                                                        </div>
+                                                        <div className="flex flex-col border-b gap-2 pb-3">
+                                                            <h3 className="font-semibold text-lg">
+                                                                1. Acceptation
+                                                                des Conditions
+                                                            </h3>
+                                                            <p className="text-pretty text-justify">
+                                                                Bienvenue sur
+                                                                SwiftMove. En
+                                                                utilisant notre
+                                                                site et nos
+                                                                services, vous
+                                                                acceptez de
+                                                                respecter les
+                                                                présentes
+                                                                conditions
+                                                                générales
+                                                                d'utilisation
+                                                                (les
+                                                                "Conditions").
+                                                                Veuillez les
+                                                                lire
+                                                                attentivement
+                                                                avant d'utiliser
+                                                                nos services.
+                                                            </p>
+                                                        </div>
+                                                    </DialogDescription>
+                                                </ScrollArea>
+                                            </div>
+                                        </DialogHeader>
+                                    </DialogContent>
+                                </Dialog>
                             </div>
                         </div>
                         <div className="flex flex-col gap-4">

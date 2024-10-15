@@ -1,4 +1,6 @@
+import Footer from "@/components/layouts/Footer";
 import Header from "@/components/layouts/Header";
+import AdvantagesSection from "@/components/sections/AdvantagesSection";
 import HeroSection from "@/components/sections/HeroSection";
 import HowItWorksSection from "@/components/sections/HowItWorksSection";
 import OpportunitiesSection from "@/components/sections/OpportunitiesSection";
@@ -14,6 +16,8 @@ export default function Home() {
             <OpportunitiesSection />
             <TestimonySection />
             <HowItWorksSection />
+            <AdvantagesSection />
+            <Footer />
         </main>
     );
 }

@@ -6,7 +6,8 @@ interface IconTextCardProps {
     icon: ReactNode;
     iconBgColor?: string;
     title: string;
-    body: string;
+    body?: string;
+    hasBody?: boolean;
 }
 
 const IconTextCard: FC<IconTextCardProps> = ({
@@ -15,6 +16,7 @@ const IconTextCard: FC<IconTextCardProps> = ({
     iconBgColor = "bg-secondary",
     title,
     body,
+    hasBody = true,
 }) => {
     return (
         <div
@@ -26,7 +28,9 @@ const IconTextCard: FC<IconTextCardProps> = ({
             <div className={`${iconBgColor} p-4 rounded-full`}>{icon}</div>
             <div className="flex flex-col gap-2">
                 <h3 className="font-bold md:text-lg">{title}</h3>
-                <p className="text-pretty text-sm md:text-base">{body}</p>
+                {hasBody && (
+                    <p className="text-pretty text-sm md:text-base">{body}</p>
+                )}
             </div>
         </div>
     );

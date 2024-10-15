@@ -4,8 +4,8 @@ import { Bike, Truck } from "lucide-react";
 
 const OpportunitiesSection = () => {
     return (
-        <section className="px-5 sm:px-14 py-5 md:py-14">
-            <div className="flex flex-col items-center gap-16">
+        <section className="flex justify-center w-full px-5 sm:px-14 py-5 md:py-14">
+            <div className="container flex flex-col items-center gap-16">
                 <div className="flex flex-col items-center w-full gap-5">
                     <h2 className="font-semibold text-xl sm:text-2xl lg:text-4xl text-center">
                         Choisissez votre plan d'investissement

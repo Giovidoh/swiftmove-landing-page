@@ -6,8 +6,8 @@ import WhyUsSectionChart from "../charts/WhyUsSectionChart";
 
 const WhyUsSection = () => {
     return (
-        <section className="px-5 sm:px-14 py-20">
-            <div className="flex flex-col items-center gap-16">
+        <section className="flex justify-center w-full px-5 sm:px-14 py-20">
+            <div className="container flex flex-col items-center gap-16">
                 <div className="flex flex-col items-center w-full gap-5">
                     <Badge
                         className="text-sm lg:text-base font-extralight whitespace-nowrap"

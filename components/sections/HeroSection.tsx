@@ -6,7 +6,7 @@ const HeroSection = () => {
     return (
         <section className="w-full h-[fit] bg-hero-image bg-no-repeat bg-center bg-cover">
             <div className="bg-black bg-opacity-60 backdrop-blur-sm flex justify-center w-full h-full">
-                <div className="flex flex-col justify-center items-center w-full h-full lg:gap-3 px-5 sm:px-14 py-20">
+                <div className="container flex flex-col justify-center items-center w-full h-full lg:gap-3 px-5 sm:px-14 py-20">
                     <span className="text-white text-center text-sm lg:text-base text-pretty font-extralight">
                         Rapide sur la route, rentable dans vos poches
                     </span>

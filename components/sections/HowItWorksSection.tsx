@@ -4,8 +4,8 @@ import { Bike, Truck, Wallet, HandCoins } from "lucide-react";
 
 const HowItWorksSection = () => {
     return (
-        <section className="container px-5 sm:px-14 py-5 md:py-14">
-            <div className="flex flex-col items-center gap-16">
+        <section className="flex justify-center w-full px-5 sm:px-14 py-5 md:py-14">
+            <div className="container flex flex-col items-center w-full gap-16">
                 <div className="flex flex-col items-center gap-3">
                     <h2 className="font-semibold text-center text-xl sm:text-2xl lg:text-4xl">
                         Comment ça fonctionne

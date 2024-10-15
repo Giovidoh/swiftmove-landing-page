@@ -62,11 +62,11 @@ const TestimonySection = () => {
                         opts={{ loop: true }}
                         className="w-full max-w-[80%]"
                     >
-                        <CarouselContent className="p-5">
+                        <CarouselContent className="py-5">
                             {testimonies.map((testimony, index) => (
                                 <CarouselItem
                                     key={index}
-                                    className="flex justify-center basis-full"
+                                    className="flex justify-center xl:basis-3/4 2xl:basis-1/2"
                                 >
                                     <div className="flex flex-col min-[900px]:flex-row items-center min-[900px]:items-start w-fit border border-primary p-5 gap-4 shadow-lg rounded-2xl">
                                         <div className="bg-gray-400 w-20 min-[900px]:w-32 h-20 min-[900px]:h-32 rounded-xl"></div>

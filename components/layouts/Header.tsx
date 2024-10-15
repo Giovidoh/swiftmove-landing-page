@@ -12,20 +12,16 @@ const navLinks = [
         text: "Accueil",
     },
     {
-        href: "/",
-        text: "Investir",
+        href: "/#how-it-works",
+        text: "Fonctionnement",
     },
     {
-        href: "/",
-        text: "Services",
+        href: "/#opportunities",
+        text: "Plans",
     },
     {
-        href: "/",
-        text: "À Propos",
-    },
-    {
-        href: "/",
-        text: "Contact",
+        href: "/#advantages",
+        text: "Avantages",
     },
 ];
 

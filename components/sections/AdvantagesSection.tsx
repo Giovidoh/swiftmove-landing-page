@@ -1,6 +1,6 @@
 import React from "react";
 import IconTextCard from "../cards/IconTextCard";
-import { Wallpaper } from "lucide-react";
+import { RefreshCw, ShieldCheck, Sprout, TrendingUp } from "lucide-react";
 import AdvantagesSectionChart from "../charts/AdvantagesSectionChart";
 
 const AdvantagesSection = () => {
@@ -13,22 +13,22 @@ const AdvantagesSection = () => {
                 <div className="flex items-center w-full gap-5">
                     <div className="flex flex-col gap-4 w-full lg:w-1/2">
                         <IconTextCard
-                            icon={<Wallpaper />}
+                            icon={<TrendingUp />}
                             title="Croissance rapide des investissements"
                             hasBody={false}
                         />
                         <IconTextCard
-                            icon={<Wallpaper />}
+                            icon={<RefreshCw />}
                             title="Retours sur investissement flexibles"
                             hasBody={false}
                         />
                         <IconTextCard
-                            icon={<Wallpaper />}
+                            icon={<Sprout />}
                             title="Livraison écoresponsable et technologie verte"
                             hasBody={false}
                         />
                         <IconTextCard
-                            icon={<Wallpaper />}
+                            icon={<ShieldCheck />}
                             title="Sécurité et transparence des fonds"
                             hasBody={false}
                         />

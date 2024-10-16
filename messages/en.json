@@ -54,7 +54,40 @@
         },
         "OpportunitiesSection": {
             "heading": "Choose your investment plan",
-            "subheading": "Flexible investment options to maximize your profits"
+            "subheading": "Flexible investment options to maximize your profits",
+            "card1": {
+                "title": "Bike",
+                "description": "Invest in fast, green delivery.",
+                "price": "7$",
+                "duration": "6 months(156 days)",
+                "investmentSentence": "Investment of <span>{price}</span> <br></br> for <span>{duration}</span>",
+                "advantages": {
+                    "incomePercentage": "250%",
+                    "return on investment": "Return on investment of <span>{incomePercentage}</span>"
+                }
+            },
+            "card2": {
+                "title": "Motorcycle",
+                "description": "Boost your profits with urban mobility.",
+                "price": "25$",
+                "duration": "6 months(156 days)",
+                "investmentSentence": "Investment of <span>{price}</span> <br></br> for <span>{duration}</span>",
+                "advantages": {
+                    "incomePercentage": "250%",
+                    "return on investment": "Return on investment of <span>{incomePercentage}</span>"
+                }
+            },
+            "card3": {
+                "title": "Voiture Eco",
+                "description": "Solid gains with our economy cars.",
+                "price": "250$",
+                "duration": "10 months(260 days)",
+                "investmentSentence": "Investment of <span>{price}</span> <br></br> for <span>{duration}</span>",
+                "advantages": {
+                    "incomePercentage": "230%",
+                    "return on investment": "Return on investment of <span>{incomePercentage}</span>"
+                }
+            }
         },
         "AdvantagesSection": {
             "heading": "SwiftMove benefits",

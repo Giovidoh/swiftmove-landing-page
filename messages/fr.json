@@ -54,7 +54,40 @@
         },
         "OpportunitiesSection": {
             "heading": "Choisissez votre plan d'investissement",
-            "subheading": "Des options d'investissement flexibles pour maximiser vos profits"
+            "subheading": "Des options d'investissement flexibles pour maximiser vos profits",
+            "card1": {
+                "title": "Vélo",
+                "description": "Investissez dans la livraison rapide et verte.",
+                "price": "7$",
+                "duration": "6 mois(156 jrs)",
+                "investmentSentence": "Investissement de <span>{price}</span> <br></br> pour <span>{duration}</span>",
+                "advantages": {
+                    "incomePercentage": "250%",
+                    "return on investment": "Retour sur investissement de <span>{incomePercentage}</span>"
+                }
+            },
+            "card2": {
+                "title": "Moto",
+                "description": "Boostez vos profits avec la mobilité urbaine.",
+                "price": "25$",
+                "duration": "6 mois(156 jrs)",
+                "investmentSentence": "Investissement de <span>{price}</span> <br></br> pour <span>{duration}</span>",
+                "advantages": {
+                    "incomePercentage": "250%",
+                    "return on investment": "Retour sur investissement de <span>{incomePercentage}</span>"
+                }
+            },
+            "card3": {
+                "title": "Voiture Eco",
+                "description": "Des gains solides avec nos voitures économiques.",
+                "price": "250$",
+                "duration": "10 mois(260 jrs)",
+                "investmentSentence": "Investissement de <span>{price}</span> <br></br> pour <span>{duration}</span>",
+                "advantages": {
+                    "incomePercentage": "230%",
+                    "return on investment": "Retour sur investissement de <span>{incomePercentage}</span>"
+                }
+            }
         },
         "AdvantagesSection": {
             "heading": "Les avantages de SwiftMove",

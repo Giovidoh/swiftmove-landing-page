@@ -203,7 +203,50 @@
                         "conclusion2": "This ensures legal protection for the company, while remaining transparent to users and investors."
                     }
                 },
-                "link2": "Privacy policy",
+                "link2": {
+                    "title": "Privacy policy",
+                    "dialog": {
+                        "intro": "<b>Effective date</b>: [insert date] <br></br><br></br> At <b>SwiftMove</b>, the privacy and security of your personal information is of the utmost importance. This Privacy Policy describes the types of information we collect, how we use it, the steps we take to protect it, and your rights regarding your personal data.",
+                        "1": {
+                            "title": "1. Information collected",
+                            "description": "We collect several types of data to provide and improve our services: <br></br> • <b>Personal Data</b>: When you register or use our services, we collect information such as your name, e-mail address, telephone number, delivery address, and payment information. <br></br> • <b>Browsing Data</b>: We collect technical information such as IP address, browser type, pages visited, cookies, and access time to improve your user experience. <br></br> • <b>Financial Data</b>: If you invest in our project, we collect information relating to your financial transactions (amount invested, means of payment, etc.)."
+                        },
+                        "2": {
+                            "title": "2. Use of Information",
+                            "description": "The information we collect is used for : <br></br> • <b>Service Provision</b>: To manage and process your delivery orders and investment transactions; <br></br> • <b>Service Improvement</b>: To analyze browsing data to improve our site, optimize our delivery services, and develop new features. <br></br> • <b>Communication</b>: To inform you about our services, promotions, news, or to answer your questions. <br></br> • <b>Investment Management</b>: To keep your investment information up to date, calculate returns, and manage financial transactions. <br></br> • <b>Security</b>: Protect our platform against fraud and abuse, and ensure the security of your personal information."
+                        },
+                        "3": {
+                            "title": "3. Information sharing",
+                            "description": "Your personal data may be shared in the following cases: <br></br> • <b>Service Partners</b>: We share certain information with delivery partners, payment providers, and technology suppliers in order to process your orders or investments. <br></br> • <b>Legal Compliance</b>: We may disclose information if required to do so by law, in connection with legal proceedings, or to protect our rights or those of our users. <br></br> • <b>Transfer of Business</b>: In the event of a merger, acquisition, or sale of all or part of our business, your information may be transferred to the new owners. <br></br> We do not sell or rent your personal data to third parties for marketing purposes."
+                        },
+                        "4": {
+                            "title": "4. Cookies and Tracking Technologies",
+                            "description": "We use <b>cookies</b> and similar technologies to improve the user experience and gather analytical information. These technologies help us to: <br></br> • <b>Improve Navigation</b>: Remember your preferences and choices to provide a more personalized experience. <br></br> • <b>Analyze Performance</b>: Track site performance and understand how users interact with our services. <br></br> You can set your browser to refuse cookies, but this may limit certain features of our site."
+                        },
+                        "5": {
+                            "title": "5. Data security",
+                            "description": "We implement rigorous technical and organizational security measures to protect your personal data against unauthorized access, loss, destruction or alteration. This includes the use of encryption protocols for online transactions and database protection. <br></br> However, no method of transmission over the Internet or of electronic storage is totally secure. Although we strive to protect your data, we cannot guarantee absolute security."
+                        },
+                        "6": {
+                            "title": "6. Your rights",
+                            "description": "As a SwiftMove user, you have the following rights regarding your personal data: <br></br> • <b>Access</b>: You have the right to request a copy of the information we hold about you. <br></br> • <b>Correction</b>: You may request that we correct or update your information if it is inaccurate or out of date. <br></br> • <b>Deletion</b>: You may request the deletion of your personal data, unless its retention is necessary for legal or contractual reasons. <br></br> • <b>Portability</b>: In certain cases, you have the right to receive your data in a structured and commonly used format, and to transfer it to another service provider. <br></br> • <b>Objection</b>: You may object to the processing of your data for legitimate reasons, in particular with regard to marketing communications. <br></br> To exercise these rights, please contact us at <b>privacy@swiftmove.com</b>."
+                        },
+                        "7": {
+                            "title": "7. Data retention",
+                            "description": "We retain your personal data for as long as necessary to fulfill the purposes described in this Policy, including providing our services, complying with our legal obligations, resolving disputes, and enforcing our agreements."
+                        },
+                        "8": {
+                            "title": "8. Changes to the Privacy Policy",
+                            "description": "We may update this Privacy Policy periodically to reflect changes in our practices. We will notify you of any significant changes by e-mail or via a notice on our site. We encourage you to visit this page regularly to stay informed about our privacy practices."
+                        },
+                        "9": {
+                            "title": "9. Contact",
+                            "description": "If you have any questions or concerns about this Privacy Policy, or if you would like to exercise your rights regarding your personal data, please contact us at: <br></br> • <b>Email</b>: privacy@swiftmove.com <br></br> • <b>Phone</b>: +[phone number]"
+                        },
+                        "conclusion1": "By using <b>SwiftMove</b> services, you consent to the collection and use of your information in accordance with this Privacy Policy.",
+                        "conclusion2": "This guarantees your users and investors transparency in the management of their personal data, and reinforces trust in the company."
+                    }
+                },
                 "link3": "About us"
             },
             "col3": {

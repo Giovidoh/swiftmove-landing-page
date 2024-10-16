@@ -4,34 +4,42 @@ import { Menu, Wallet } from "lucide-react";
 import React, { useState } from "react";
 import { Button } from "../ui/button";
 import { motion } from "framer-motion";
-
-// Navigation links
-const navLinks = [
-    {
-        href: "/",
-        text: "Accueil",
-    },
-    {
-        href: "/#how-it-works",
-        text: "Fonctionnement",
-    },
-    {
-        href: "/#opportunities",
-        text: "Plans",
-    },
-    {
-        href: "/#advantages",
-        text: "Avantages",
-    },
-];
+import LanguagesSelect from "../selects/LanguagesSelect";
+import { useLocale, useTranslations } from "next-intl";
 
 const Header = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
+    const localActive = useLocale();
+    const t = useTranslations("SwiftMovePage.Header");
+
+    // Navigation links
+    const navLinks = [
+        {
+            href: `/${localActive}`,
+            text: t("links.link1"),
+        },
+        {
+            href: `/${localActive}/#how-it-works`,
+            text: t("links.link2"),
+        },
+        {
+            href: `/${localActive}/#opportunities`,
+            text: t("links.link3"),
+        },
+        {
+            href: `/${localActive}/#advantages`,
+            text: t("links.link4"),
+        },
+    ];
+
     return (
         <header className="relative flex justify-center w-full sm:px-14 py-3 shadow-md">
             <div className="container flex justify-between items-center w-full px-5">
-                <div>
+                <div className="flex items-center gap-5">
                     <h1 className="font-bold text-xl">SwiftMove</h1>
+                    <div className="hidden min-[1125px]:block">
+                        <LanguagesSelect />
+                    </div>
                 </div>
                 <div className="flex items-center gap-10">
                     <nav className="hidden min-[750px]:flex gap-8">
@@ -41,16 +49,16 @@ const Header = () => {
                             </Link>
                         ))}
                     </nav>
-                    <div className="hidden lg:flex gap-3">
-                        <Button>S'inscrire</Button>
-                        <Button className="flex items-center gap-2">
+                    <div className="hidden min-[1125px]:flex gap-3">
+                        <Button>{t("button1 text")}</Button>
+                        <Button className="flex items-center capitalize gap-2">
                             <Wallet size={20} color="white" strokeWidth={1.5} />
-                            Investir Maintenant
+                            {t("button2 text")}
                         </Button>
                     </div>
                 </div>
                 <motion.button
-                    className="block lg:hidden"
+                    className="block min-[1125px]:hidden"
                     onClick={() => setToggleMenu((prev) => !prev)}
                     whileTap={{ scale: 0.9 }}
                 >
@@ -63,7 +71,7 @@ const Header = () => {
                         scale: toggleMenu ? 1 : 0.95,
                     }}
                     transition={{ duration: 0.2, ease: "easeIn" }}
-                    className={`absolute right-0 top-full lg:hidden flex flex-col items-center bg-white border gap-3 p-10 rounded-md z-10`}
+                    className={`absolute right-0 top-full min-[1125px]:hidden flex flex-col items-center bg-white border gap-3 p-10 rounded-md z-10`}
                 >
                     <nav className="flex min-[750px]:hidden flex-col gap-4">
                         {navLinks.map((link, index) => (
@@ -76,11 +84,14 @@ const Header = () => {
                             </Link>
                         ))}
                     </nav>
-                    <div className="flex lg:hidden flex-col gap-3">
-                        <Button>S'inscrire</Button>
-                        <Button className="flex items-center gap-2">
+                    <div className="flex min-[1125px]:hidden flex-col gap-3">
+                        <div className="w-full">
+                            <LanguagesSelect />
+                        </div>
+                        <Button>{t("button1 text")}</Button>
+                        <Button className="flex items-center capitalize gap-2">
                             <Wallet size={20} color="white" strokeWidth={1.5} />
-                            Investir Maintenant
+                            {t("button2 text")}
                         </Button>
                     </div>
                 </motion.div>

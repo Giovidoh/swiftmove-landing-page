@@ -1,0 +1,124 @@
+{
+    "SwiftMovePage": {
+        "Header": {
+            "links": {
+                "link1": "Accueil",
+                "link2": "Fonctionnement",
+                "link3": "Plans",
+                "link4": "Avantages"
+            },
+            "button1 text": "S'inscrire",
+            "button2 text": "Investir maintenant"
+        },
+        "HeroSection": {
+            "tag": "Rapide sur la route, rentable dans vos poches",
+            "heading": "Investissez dans le futur de la livraison écoresponsable et regardez vos gains croître.",
+            "subheading": "Devenez partie prenante d'un projet innovant et rentable dans le secteur de la logistique moderne.",
+            "button text": "Investir maintenant"
+        },
+        "WhyUsSection": {
+            "tag": "Pourquoi investir dans SwiftMove",
+            "heading": "Pourquoi SwiftMove est le meilleur choix pour vos investissements ?",
+            "card1": {
+                "title": "Croissance durable",
+                "body": "SwiftMove réduit son empreinte carbone grâce à des véhicules éco-responsables et des trajets optimisés."
+            },
+            "card2": {
+                "title": "Retour sur investissement rapide",
+                "body": "Maximisez la rentabilité dès le début avec des coûts réduits et une efficacité optimale."
+            },
+            "card3": {
+                "title": "Impact environnemental",
+                "body": "SwiftMove minimise son impact écologique en adoptant des solutions de transport propres et efficaces."
+            },
+            "chart": {
+                "title": "Croissance potentielle des profits",
+                "lang": "fr"
+            }
+        },
+        "HowItWorksSection": {
+            "heading": "Comment ça fonctionne",
+            "subheading": "Suivez ces étapes simples.",
+            "card1": {
+                "title": "Choisissez votre véhicule",
+                "body": "Sélectionnez le mode de livraison dans lequel vous souhaitez investir."
+            },
+            "card2": {
+                "title": "Investissez en quelques clics",
+                "body": "Processus simple et rapide, sécurisé par nos partenaires de paiement."
+            },
+            "card3": {
+                "title": "Générez des profits",
+                "body": "Voyez vos gains augmenter grâce à notre réseau de livraison performant."
+            }
+        },
+        "OpportunitiesSection": {
+            "heading": "Choisissez votre plan d'investissement",
+            "subheading": "Des options d'investissement flexibles pour maximiser vos profits"
+        },
+        "AdvantagesSection": {
+            "heading": "Les avantages de SwiftMove",
+            "subheading": "Voici ce que nous vous offrons.",
+            "card1": {
+                "title": "Croissance rapide des investissements"
+            },
+            "card2": {
+                "title": "Retours sur investissement flexibles"
+            },
+            "card3": {
+                "title": "Livraison écoresponsable et technologie verte"
+            },
+            "card4": {
+                "title": "Sécurité et transparence des fonds"
+            },
+            "chart": {
+                "title": "Résultats financiers",
+                "lang": "fr"
+            }
+        },
+        "TestimonySection": {
+            "heading": "Écoutez leurs avis",
+            "subheading": "Ils témoignent de ce que SwiftMove a pu leur offrir.",
+            "card1": {
+                "name": "John Doe",
+                "testimony": "Grâce à SwiftMove, j'ai vu mon investissement croître de 10% en seulement 6 mois ! Le modèle de livraison durable est l'avenir."
+            },
+            "card2": {
+                "name": "Jane Smith",
+                "testimony": "SwiftMove m'a permis d'économiser du temps et de l'argent. Leur service est rapide et écoresponsable, je suis impressionnée par leur efficacité !"
+            },
+            "card3": {
+                "name": "Lucas Martin",
+                "testimony": "Je n'ai jamais vu une entreprise aussi engagée pour l'environnement et ses clients. Avec SwiftMove, j'ai optimisé ma logistique tout en réduisant mon empreinte carbone."
+            },
+            "card4": {
+                "name": "Emma Durand",
+                "testimony": "Le service est irréprochable ! En à peine quelques mois, j'ai vu une amélioration significative de mon chiffre d'affaires grâce à leur modèle de livraison innovant."
+            },
+            "card5": {
+                "name": "Noah Lefebvre",
+                "testimony": "SwiftMove a totalement transformé la façon dont je gère mes envois. Non seulement c'est rapide, mais c'est aussi bon pour la planète. Un service gagnant à tous les niveaux !"
+            }
+        },
+        "Footer": {
+            "col1": {
+                "title": "Liens utiles",
+                "link1": "Investir",
+                "link2": "Fonctionnement",
+                "link3": "Plans",
+                "link4": "Avantages"
+            },
+            "col2": {
+                "title": "Ressources",
+                "link1": "Conditions d'utilisation",
+                "link2": "Politique de confidentialité",
+                "link3": "A propos"
+            },
+            "col3": {
+                "title": "Contact",
+                "link1": "infos@swiftmove.com",
+                "link2": "+0000000000"
+            }
+        }
+    }
+}

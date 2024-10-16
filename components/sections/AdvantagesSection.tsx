@@ -2,8 +2,11 @@ import React from "react";
 import IconTextCard from "../cards/IconTextCard";
 import { RefreshCw, ShieldCheck, Sprout, TrendingUp } from "lucide-react";
 import AdvantagesSectionChart from "../charts/AdvantagesSectionChart";
+import { useTranslations } from "next-intl";
 
 const AdvantagesSection = () => {
+    const t = useTranslations("SwiftMovePage.AdvantagesSection");
+
     return (
         <section
             id="advantages"
@@ -12,32 +15,32 @@ const AdvantagesSection = () => {
             <div className="container flex flex-col items-center w-full gap-10">
                 <div className="flex flex-col items-center gap-4">
                     <h2 className="font-semibold text-xl sm:text-2xl lg:text-4xl text-center">
-                        Les avantages de SwiftMove
+                        {t("heading")}
                     </h2>
                     <p className="text-gray-500 text-sm lg:text-base text-center">
-                        Voici ce que nous vous offrons.
+                        {t("subheading")}
                     </p>
                 </div>
                 <div className="flex items-center w-full gap-5">
                     <div className="flex flex-col gap-4 w-full lg:w-1/2">
                         <IconTextCard
                             icon={<TrendingUp />}
-                            title="Croissance rapide des investissements"
+                            title={t("card1.title")}
                             hasBody={false}
                         />
                         <IconTextCard
                             icon={<RefreshCw />}
-                            title="Retours sur investissement flexibles"
+                            title={t("card2.title")}
                             hasBody={false}
                         />
                         <IconTextCard
                             icon={<Sprout />}
-                            title="Livraison écoresponsable et technologie verte"
+                            title={t("card3.title")}
                             hasBody={false}
                         />
                         <IconTextCard
                             icon={<ShieldCheck />}
-                            title="Sécurité et transparence des fonds"
+                            title={t("card4.title")}
                             hasBody={false}
                         />
                     </div>

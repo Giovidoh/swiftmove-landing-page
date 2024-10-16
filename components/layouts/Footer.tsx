@@ -9,8 +9,11 @@ import {
     DialogTrigger,
 } from "@/components/ui/dialog";
 import { ScrollArea } from "@/components/ui/scroll-area";
+import { useTranslations } from "next-intl";
 
 const Footer = () => {
+    const t = useTranslations("SwiftMovePage.Footer");
+
     return (
         <footer className="flex justify-center bg-primary text-primary-foreground w-full px-5 sm:px-14 py-20">
             <div className="container flex flex-col gap-20">
@@ -20,26 +23,32 @@ const Footer = () => {
                     </div>
                     <div className="flex flex-wrap gap-10 sm:gap-20 lg:gap-40">
                         <div className="flex flex-col gap-4">
-                            <h3 className="font-semibold">Liens utiles</h3>
+                            <h3 className="font-semibold">{t("col1.title")}</h3>
                             <div className="flex flex-col gap-2">
-                                <Link href="#">Investir</Link>
-                                <Link href="#how-it-works">Fonctionnement</Link>
-                                <Link href="#opportunities">Plans</Link>
-                                <Link href="#advantages">Avantages</Link>
+                                <Link href="#">{t("col1.link1")}</Link>
+                                <Link href="#how-it-works">
+                                    {t("col1.link2")}
+                                </Link>
+                                <Link href="#opportunities">
+                                    {t("col1.link3")}
+                                </Link>
+                                <Link href="#advantages">
+                                    {t("col1.link4")}
+                                </Link>
                             </div>
                         </div>
                         <div className="flex flex-col gap-4">
-                            <h3 className="font-semibold">Ressources</h3>
+                            <h3 className="font-semibold">{t("col2.title")}</h3>
                             <div className="flex flex-col gap-2">
                                 <Dialog>
                                     <DialogTrigger className="text-start">
-                                        Conditions d'utilisation
+                                        {t("col2.link1")}
                                     </DialogTrigger>
                                     <DialogContent>
                                         <DialogHeader>
                                             <div className="flex flex-col items-center gap-5">
-                                                <DialogTitle>
-                                                    CONDITIONS D’UTILISATIONS
+                                                <DialogTitle className="uppercase">
+                                                    {t("col2.link1")}
                                                 </DialogTitle>
                                                 <ScrollArea className="w-full max-h-[600px] px-5">
                                                     <DialogDescription className="flex flex-col text-primary gap-4">
@@ -100,13 +109,13 @@ const Footer = () => {
 
                                 <Dialog>
                                     <DialogTrigger className="text-start">
-                                        Politique de confidentialité
+                                        {t("col2.link2")}
                                     </DialogTrigger>
                                     <DialogContent>
                                         <DialogHeader>
                                             <div className="flex flex-col items-center gap-5">
-                                                <DialogTitle>
-                                                    POLITIQUE DE CONFIDENTIALITÉ
+                                                <DialogTitle className="uppercase">
+                                                    {t("col2.link2")}
                                                 </DialogTitle>
                                                 <ScrollArea className="w-full max-h-[600px] px-5">
                                                     <DialogDescription className="flex flex-col text-primary gap-4">
@@ -167,13 +176,13 @@ const Footer = () => {
 
                                 <Dialog>
                                     <DialogTrigger className="text-start">
-                                        A propos
+                                        {t("col3.title")}
                                     </DialogTrigger>
                                     <DialogContent>
                                         <DialogHeader>
                                             <div className="flex flex-col items-center gap-5">
-                                                <DialogTitle>
-                                                    A PROPOS
+                                                <DialogTitle className="uppercase">
+                                                    {t("col3.title")}
                                                 </DialogTitle>
                                                 <ScrollArea className="w-full max-h-[600px] px-5">
                                                     <DialogDescription className="flex flex-col text-primary gap-4">
@@ -234,10 +243,10 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className="flex flex-col gap-4">
-                            <h3 className="font-semibold">Contact</h3>
+                            <h3 className="font-semibold">{t("col3.title")}</h3>
                             <div className="flex flex-col gap-2">
-                                <p>infos@swiftmove.com</p>
-                                <p>+0000000000</p>
+                                <p>{t("col3.link1")}</p>
+                                <p>{t("col3.link2")}</p>
                             </div>
                         </div>
                     </div>

@@ -16,23 +16,7 @@ import {
     ChartTooltipContent,
 } from "@/components/ui/chart";
 import { Bar, BarChart, CartesianGrid, XAxis } from "recharts";
-
-export const description = "A multiple bar chart";
-
-const chartData = [
-    { month: "Janvier", motos: 186, vélos: 80 },
-    { month: "Février", motos: 305, vélos: 200 },
-    { month: "Mars", motos: 237, vélos: 120 },
-    { month: "Avril", motos: 73, vélos: 190 },
-    { month: "Mai", motos: 209, vélos: 130 },
-    { month: "Juin", motos: 214, vélos: 140 },
-    { month: "Juillet", motos: 214, vélos: 140 },
-    { month: "Août", motos: 214, vélos: 140 },
-    { month: "Septembre", motos: 214, vélos: 140 },
-    { month: "Octobre", motos: 214, vélos: 140 },
-    { month: "Novembre", motos: 214, vélos: 140 },
-    { month: "Décembre", motos: 214, vélos: 140 },
-];
+import { useTranslations } from "next-intl";
 
 const chartConfig = {
     motos: {
@@ -46,10 +30,43 @@ const chartConfig = {
 } satisfies ChartConfig;
 
 const WhyUsSectionChart = () => {
+    const t = useTranslations("SwiftMovePage.WhyUsSection.chart");
+
+    const chartData =
+        t("lang") === "fr"
+            ? [
+                  { month: "Janvier", motos: 186, vélos: 80 },
+                  { month: "Février", motos: 305, vélos: 200 },
+                  { month: "Mars", motos: 237, vélos: 120 },
+                  { month: "Avril", motos: 73, vélos: 190 },
+                  { month: "Mai", motos: 209, vélos: 130 },
+                  { month: "Juin", motos: 214, vélos: 140 },
+                  { month: "Juillet", motos: 214, vélos: 140 },
+                  { month: "Août", motos: 214, vélos: 140 },
+                  { month: "Septembre", motos: 214, vélos: 140 },
+                  { month: "Octobre", motos: 214, vélos: 140 },
+                  { month: "Novembre", motos: 214, vélos: 140 },
+                  { month: "Décembre", motos: 214, vélos: 140 },
+              ]
+            : [
+                  { month: "January", motos: 186, vélos: 80 },
+                  { month: "February", motos: 305, vélos: 200 },
+                  { month: "March", motos: 237, vélos: 120 },
+                  { month: "April", motos: 73, vélos: 190 },
+                  { month: "May", motos: 209, vélos: 130 },
+                  { month: "June", motos: 214, vélos: 140 },
+                  { month: "July", motos: 214, vélos: 140 },
+                  { month: "August", motos: 214, vélos: 140 },
+                  { month: "September", motos: 214, vélos: 140 },
+                  { month: "October", motos: 214, vélos: 140 },
+                  { month: "November", motos: 214, vélos: 140 },
+                  { month: "December", motos: 214, vélos: 140 },
+              ];
+
     return (
         <Card className="border-none shadow-none">
             <CardHeader className="text-center">
-                <CardTitle>Croissance potentielle des profits</CardTitle>
+                <CardTitle>{t("title")}</CardTitle>
                 <CardDescription>2024</CardDescription>
             </CardHeader>
             <CardContent className="h-1/2">

@@ -3,8 +3,11 @@ import IconTextCard from "../cards/IconTextCard";
 import { Leaf, DollarSign, Globe } from "lucide-react";
 import { Badge } from "../ui/badge";
 import WhyUsSectionChart from "../charts/WhyUsSectionChart";
+import { useTranslations } from "next-intl";
 
 const WhyUsSection = () => {
+    const t = useTranslations("SwiftMovePage.WhyUsSection");
+
     return (
         <section className="flex justify-center w-full px-5 sm:px-14 py-20">
             <div className="container flex flex-col items-center gap-16">
@@ -13,30 +16,29 @@ const WhyUsSection = () => {
                         className="text-sm lg:text-base font-extralight whitespace-nowrap"
                         variant="outline"
                     >
-                        Pourquoi investir dans SwiftMove
+                        {t("tag")}
                     </Badge>
                     <h2 className="font-semibold text-xl sm:text-2xl lg:text-4xl text-center">
-                        Pourquoi SwiftMove est le meilleur choix pour vos
-                        investissements ?
+                        {t("heading")}
                     </h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 min-[1080px]:grid-cols-3 gap-4 mt-5">
                         <IconTextCard
                             className="flex-col items-center text-center gap-2"
                             icon={<Leaf />}
-                            title="Croissance durable"
-                            body="SwiftMove réduit son empreinte carbone grâce à des véhicules éco-responsables et des trajets optimisés."
+                            title={t("card1.title")}
+                            body={t("card1.body")}
                         />
                         <IconTextCard
                             className="flex-col items-center text-center gap-2"
                             icon={<DollarSign />}
-                            title="Retour sur investissement rapide"
-                            body="Maximisez la rentabilité dès le début avec des coûts réduits et une efficacité optimale."
+                            title={t("card2.title")}
+                            body={t("card2.body")}
                         />
                         <IconTextCard
                             className="flex-col items-center text-center gap-2 sm:col-span-2 min-[1080px]:col-span-1"
                             icon={<Globe />}
-                            title="Impact environnemental"
-                            body="SwiftMove minimise son impact écologique en adoptant des solutions de transport propres et efficaces."
+                            title={t("card3.title")}
+                            body={t("card3.body")}
                         />
                     </div>
                 </div>

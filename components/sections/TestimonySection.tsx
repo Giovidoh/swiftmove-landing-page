@@ -7,54 +7,43 @@ import {
     CarouselNext,
     CarouselPrevious,
 } from "@/components/ui/carousel";
+import { useTranslations } from "next-intl";
 
 const TestimonySection = () => {
+    const t = useTranslations("SwiftMovePage.TestimonySection");
+
     const testimonies = [
         {
-            name: "John Doe",
-            testimony:
-                "Grâce à SwiftMove, j'ai vu mon investissement croître de 10% en seulement 6 mois ! Le modèle de livraison durable est l'avenir.",
+            name: t("card1.name"),
+            testimony: t("card1.testimony"),
         },
         {
-            name: "Jane Smith",
-            testimony:
-                "SwiftMove m'a permis d'économiser du temps et de l'argent. Leur service est rapide et écoresponsable, je suis impressionnée par leur efficacité !",
+            name: t("card2.name"),
+            testimony: t("card2.testimony"),
         },
         {
-            name: "Lucas Martin",
-            testimony:
-                "Je n'ai jamais vu une entreprise aussi engagée pour l'environnement et ses clients. Avec SwiftMove, j'ai optimisé ma logistique tout en réduisant mon empreinte carbone.",
+            name: t("card3.name"),
+            testimony: t("card3.testimony"),
         },
         {
-            name: "Emma Durand",
-            testimony:
-                "Le service est irréprochable ! En à peine quelques mois, j'ai vu une amélioration significative de mon chiffre d'affaires grâce à leur modèle de livraison innovant.",
+            name: t("card4.name"),
+            testimony: t("card4.testimony"),
         },
         {
-            name: "Noah Lefebvre",
-            testimony:
-                "SwiftMove a totalement transformé la façon dont je gère mes envois. Non seulement c'est rapide, mais c'est aussi bon pour la planète. Un service gagnant à tous les niveaux !",
-        },
-        {
-            name: "Sophia Laurent",
-            testimony:
-                "J'étais sceptique au début, mais SwiftMove m'a prouvé que durabilité et performance peuvent aller de pair. Mon entreprise en bénéficie chaque jour !",
-        },
-        {
-            name: "Alexandre Dupuis",
-            testimony:
-                "La simplicité et l'efficacité de SwiftMove sont impressionnantes. Leur approche durable m'a convaincu, et j'ai vu une nette amélioration de mes résultats.",
+            name: t("card5.name"),
+            testimony: t("card5.testimony"),
         },
     ];
+
     return (
         <section className="flex justify-center w-full px-5 sm:px-14 py-20">
             <div className="container flex flex-col w-full gap-5">
                 <div className="flex flex-col gap-5">
                     <h2 className="font-semibold text-xl sm:text-2xl lg:text-4xl text-center">
-                        Écoutez leurs avis
+                        {t("heading")}
                     </h2>
                     <p className="text-gray-500 text-sm lg:text-base text-center">
-                        Ils témoignent de ce que SwiftMove a pu leur offrir.
+                        {t("subheading")}
                     </p>
                 </div>
                 <div className="flex justify-center w-full">

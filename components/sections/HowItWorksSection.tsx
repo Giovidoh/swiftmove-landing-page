@@ -1,8 +1,11 @@
 import React from "react";
 import StepsCard from "../cards/StepsCard";
 import { Bike, Truck, Wallet, HandCoins } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 const HowItWorksSection = () => {
+    const t = useTranslations("SwiftMovePage.HowItWorksSection");
+
     return (
         <section
             id="how-it-works"
@@ -11,10 +14,10 @@ const HowItWorksSection = () => {
             <div className="container flex flex-col items-center w-full gap-16">
                 <div className="flex flex-col items-center gap-3">
                     <h2 className="font-semibold text-center text-xl sm:text-2xl lg:text-4xl">
-                        Comment ça fonctionne
+                        {t("heading")}
                     </h2>
                     <p className="text-gray-500 text-center text-sm lg:text-base">
-                        Suivez ces étapes simples.
+                        {t("subheading")}
                     </p>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 min-[1080px]:grid-cols-3 gap-10">
@@ -22,22 +25,22 @@ const HowItWorksSection = () => {
                         stepNumber={1}
                         // eslint-disable-next-line react/jsx-key
                         icons={[<Bike />, <Truck />]}
-                        title="Choisissez votre véhicule"
-                        text="Sélectionnez le mode de livraison dans lequel vous souhaitez investir."
+                        title={t("card1.title")}
+                        text={t("card1.body")}
                     />
                     <StepsCard
                         stepNumber={2}
                         // eslint-disable-next-line react/jsx-key
                         icons={[<Wallet />]}
-                        title="Investissez en quelques clics"
-                        text="Processus simple et rapide, sécurisé par nos partenaires de paiement."
+                        title={t("card2.title")}
+                        text={t("card2.body")}
                     />
                     <StepsCard
                         stepNumber={3}
                         // eslint-disable-next-line react/jsx-key
                         icons={[<HandCoins />]}
-                        title="Générez des profits"
-                        text="Voyez vos gains augmenter grâce à notre réseau de livraison performant."
+                        title={t("card3.title")}
+                        text={t("card3.body")}
                         className="sm:col-span-2 min-[1080px]:col-span-1"
                     />
                 </div>

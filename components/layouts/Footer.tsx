@@ -42,62 +42,373 @@ const Footer = () => {
                             <div className="flex flex-col gap-2">
                                 <Dialog>
                                     <DialogTrigger className="text-start">
-                                        {t("col2.link1")}
+                                        {t("col2.link1.title")}
                                     </DialogTrigger>
                                     <DialogContent>
                                         <DialogHeader>
                                             <div className="flex flex-col items-center gap-5">
                                                 <DialogTitle className="uppercase">
-                                                    {t("col2.link1")}
+                                                    {t("col2.link1.title")}
                                                 </DialogTitle>
                                                 <ScrollArea className="w-full max-h-[600px] px-5">
                                                     <DialogDescription className="flex flex-col text-primary gap-4">
                                                         <div className="border-b pb-3">
                                                             <p className="font-semibold text-pretty text-justify">
-                                                                Bienvenue sur
-                                                                SwiftMove. En
-                                                                utilisant notre
-                                                                site et nos
-                                                                services, vous
-                                                                acceptez de
-                                                                respecter les
-                                                                présentes
-                                                                conditions
-                                                                générales
-                                                                d'utilisation
-                                                                (les
-                                                                "Conditions").
-                                                                Veuillez les
-                                                                lire
-                                                                attentivement
-                                                                avant d'utiliser
-                                                                nos services.
+                                                                {t(
+                                                                    "col2.link1.dialog.intro"
+                                                                )}
                                                             </p>
                                                         </div>
                                                         <div className="flex flex-col border-b gap-2 pb-3">
                                                             <h3 className="font-semibold text-lg">
-                                                                1. Acceptation
-                                                                des Conditions
+                                                                {t(
+                                                                    "col2.link1.dialog.1.title"
+                                                                )}
                                                             </h3>
                                                             <p className="text-pretty text-justify">
-                                                                Bienvenue sur
-                                                                SwiftMove. En
-                                                                utilisant notre
-                                                                site et nos
-                                                                services, vous
-                                                                acceptez de
-                                                                respecter les
-                                                                présentes
-                                                                conditions
-                                                                générales
-                                                                d'utilisation
-                                                                (les
-                                                                "Conditions").
-                                                                Veuillez les
-                                                                lire
-                                                                attentivement
-                                                                avant d'utiliser
-                                                                nos services.
+                                                                {t(
+                                                                    "col2.link1.dialog.1.description"
+                                                                )}
+                                                            </p>
+                                                        </div>
+                                                        <div className="flex flex-col border-b gap-2 pb-3">
+                                                            <h3 className="font-semibold text-lg">
+                                                                {t(
+                                                                    "col2.link1.dialog.2.title"
+                                                                )}
+                                                            </h3>
+                                                            <p className="text-pretty text-justify">
+                                                                {t(
+                                                                    "col2.link1.dialog.2.description"
+                                                                )}
+                                                            </p>
+                                                        </div>
+                                                        <div className="flex flex-col border-b gap-2 pb-3">
+                                                            <h3 className="font-semibold text-lg">
+                                                                {t(
+                                                                    "col2.link1.dialog.3.title"
+                                                                )}
+                                                            </h3>
+                                                            <p className="text-pretty text-justify">
+                                                                {t.rich(
+                                                                    "col2.link1.dialog.3.description",
+                                                                    {
+                                                                        br: () => (
+                                                                            <br />
+                                                                        ),
+                                                                        b: (
+                                                                            chunks
+                                                                        ) => (
+                                                                            <b>
+                                                                                {
+                                                                                    chunks
+                                                                                }
+                                                                            </b>
+                                                                        ),
+                                                                    }
+                                                                )}
+                                                            </p>
+                                                        </div>
+                                                        <div className="flex flex-col border-b gap-2 pb-3">
+                                                            <h3 className="font-semibold text-lg">
+                                                                {t(
+                                                                    "col2.link1.dialog.4.title"
+                                                                )}
+                                                            </h3>
+                                                            <p className="text-pretty text-justify">
+                                                                {t.rich(
+                                                                    "col2.link1.dialog.4.description",
+                                                                    {
+                                                                        br: () => (
+                                                                            <br />
+                                                                        ),
+                                                                        b: (
+                                                                            chunks
+                                                                        ) => (
+                                                                            <b>
+                                                                                {
+                                                                                    chunks
+                                                                                }
+                                                                            </b>
+                                                                        ),
+                                                                    }
+                                                                )}
+                                                            </p>
+                                                        </div>
+                                                        <div className="flex flex-col border-b gap-2 pb-3">
+                                                            <h3 className="font-semibold text-lg">
+                                                                {t(
+                                                                    "col2.link1.dialog.5.title"
+                                                                )}
+                                                            </h3>
+                                                            <p className="text-pretty text-justify">
+                                                                {t.rich(
+                                                                    "col2.link1.dialog.5.description",
+                                                                    {
+                                                                        br: () => (
+                                                                            <br />
+                                                                        ),
+                                                                        b: (
+                                                                            chunks
+                                                                        ) => (
+                                                                            <b>
+                                                                                {
+                                                                                    chunks
+                                                                                }
+                                                                            </b>
+                                                                        ),
+                                                                    }
+                                                                )}
+                                                            </p>
+                                                        </div>
+                                                        <div className="flex flex-col border-b gap-2 pb-3">
+                                                            <h3 className="font-semibold text-lg">
+                                                                {t(
+                                                                    "col2.link1.dialog.6.title"
+                                                                )}
+                                                            </h3>
+                                                            <p className="text-pretty text-justify">
+                                                                {t.rich(
+                                                                    "col2.link1.dialog.6.description",
+                                                                    {
+                                                                        br: () => (
+                                                                            <br />
+                                                                        ),
+                                                                        b: (
+                                                                            chunks
+                                                                        ) => (
+                                                                            <b>
+                                                                                {
+                                                                                    chunks
+                                                                                }
+                                                                            </b>
+                                                                        ),
+                                                                    }
+                                                                )}
+                                                            </p>
+                                                        </div>
+                                                        <div className="flex flex-col border-b gap-2 pb-3">
+                                                            <h3 className="font-semibold text-lg">
+                                                                {t(
+                                                                    "col2.link1.dialog.7.title"
+                                                                )}
+                                                            </h3>
+                                                            <p className="text-pretty text-justify">
+                                                                {t.rich(
+                                                                    "col2.link1.dialog.7.description",
+                                                                    {
+                                                                        br: () => (
+                                                                            <br />
+                                                                        ),
+                                                                        b: (
+                                                                            chunks
+                                                                        ) => (
+                                                                            <b>
+                                                                                {
+                                                                                    chunks
+                                                                                }
+                                                                            </b>
+                                                                        ),
+                                                                    }
+                                                                )}
+                                                            </p>
+                                                        </div>
+                                                        <div className="flex flex-col border-b gap-2 pb-3">
+                                                            <h3 className="font-semibold text-lg">
+                                                                {t(
+                                                                    "col2.link1.dialog.8.title"
+                                                                )}
+                                                            </h3>
+                                                            <p className="text-pretty text-justify">
+                                                                {t.rich(
+                                                                    "col2.link1.dialog.8.description",
+                                                                    {
+                                                                        br: () => (
+                                                                            <br />
+                                                                        ),
+                                                                        b: (
+                                                                            chunks
+                                                                        ) => (
+                                                                            <b>
+                                                                                {
+                                                                                    chunks
+                                                                                }
+                                                                            </b>
+                                                                        ),
+                                                                    }
+                                                                )}
+                                                            </p>
+                                                        </div>
+                                                        <div className="flex flex-col border-b gap-2 pb-3">
+                                                            <h3 className="font-semibold text-lg">
+                                                                {t(
+                                                                    "col2.link1.dialog.9.title"
+                                                                )}
+                                                            </h3>
+                                                            <p className="text-pretty text-justify">
+                                                                {t.rich(
+                                                                    "col2.link1.dialog.9.description",
+                                                                    {
+                                                                        br: () => (
+                                                                            <br />
+                                                                        ),
+                                                                        b: (
+                                                                            chunks
+                                                                        ) => (
+                                                                            <b>
+                                                                                {
+                                                                                    chunks
+                                                                                }
+                                                                            </b>
+                                                                        ),
+                                                                    }
+                                                                )}
+                                                            </p>
+                                                        </div>
+                                                        <div className="flex flex-col border-b gap-2 pb-3">
+                                                            <h3 className="font-semibold text-lg">
+                                                                {t(
+                                                                    "col2.link1.dialog.10.title"
+                                                                )}
+                                                            </h3>
+                                                            <p className="text-pretty text-justify">
+                                                                {t.rich(
+                                                                    "col2.link1.dialog.10.description",
+                                                                    {
+                                                                        br: () => (
+                                                                            <br />
+                                                                        ),
+                                                                        b: (
+                                                                            chunks
+                                                                        ) => (
+                                                                            <b>
+                                                                                {
+                                                                                    chunks
+                                                                                }
+                                                                            </b>
+                                                                        ),
+                                                                    }
+                                                                )}
+                                                            </p>
+                                                        </div>
+                                                        <div className="flex flex-col border-b gap-2 pb-3">
+                                                            <h3 className="font-semibold text-lg">
+                                                                {t(
+                                                                    "col2.link1.dialog.11.title"
+                                                                )}
+                                                            </h3>
+                                                            <p className="text-pretty text-justify">
+                                                                {t.rich(
+                                                                    "col2.link1.dialog.11.description",
+                                                                    {
+                                                                        br: () => (
+                                                                            <br />
+                                                                        ),
+                                                                        b: (
+                                                                            chunks
+                                                                        ) => (
+                                                                            <b>
+                                                                                {
+                                                                                    chunks
+                                                                                }
+                                                                            </b>
+                                                                        ),
+                                                                    }
+                                                                )}
+                                                            </p>
+                                                        </div>
+                                                        <div className="flex flex-col border-b gap-2 pb-3">
+                                                            <h3 className="font-semibold text-lg">
+                                                                {t(
+                                                                    "col2.link1.dialog.12.title"
+                                                                )}
+                                                            </h3>
+                                                            <p className="text-pretty text-justify">
+                                                                {t.rich(
+                                                                    "col2.link1.dialog.12.description",
+                                                                    {
+                                                                        br: () => (
+                                                                            <br />
+                                                                        ),
+                                                                        b: (
+                                                                            chunks
+                                                                        ) => (
+                                                                            <b>
+                                                                                {
+                                                                                    chunks
+                                                                                }
+                                                                            </b>
+                                                                        ),
+                                                                    }
+                                                                )}
+                                                            </p>
+                                                        </div>
+                                                        <div className="flex flex-col border-b gap-2 pb-3">
+                                                            <h3 className="font-semibold text-lg">
+                                                                {t(
+                                                                    "col2.link1.dialog.13.title"
+                                                                )}
+                                                            </h3>
+                                                            <p className="text-pretty text-justify">
+                                                                {t.rich(
+                                                                    "col2.link1.dialog.13.description",
+                                                                    {
+                                                                        br: () => (
+                                                                            <br />
+                                                                        ),
+                                                                        b: (
+                                                                            chunks
+                                                                        ) => (
+                                                                            <b>
+                                                                                {
+                                                                                    chunks
+                                                                                }
+                                                                            </b>
+                                                                        ),
+                                                                    }
+                                                                )}
+                                                            </p>
+                                                        </div>
+                                                        <div className="flex flex-col border-b gap-2 pb-3">
+                                                            <p className="text-pretty text-justify">
+                                                                {t.rich(
+                                                                    "col2.link1.dialog.conclusion1",
+                                                                    {
+                                                                        br: () => (
+                                                                            <br />
+                                                                        ),
+                                                                        b: (
+                                                                            chunks
+                                                                        ) => (
+                                                                            <b>
+                                                                                {
+                                                                                    chunks
+                                                                                }
+                                                                            </b>
+                                                                        ),
+                                                                    }
+                                                                )}
+                                                            </p>
+                                                        </div>
+                                                        <div className="flex flex-col gap-2 pb-3">
+                                                            <p className="text-pretty text-justify">
+                                                                {t.rich(
+                                                                    "col2.link1.dialog.conclusion2",
+                                                                    {
+                                                                        br: () => (
+                                                                            <br />
+                                                                        ),
+                                                                        b: (
+                                                                            chunks
+                                                                        ) => (
+                                                                            <b>
+                                                                                {
+                                                                                    chunks
+                                                                                }
+                                                                            </b>
+                                                                        ),
+                                                                    }
+                                                                )}
                                                             </p>
                                                         </div>
                                                     </DialogDescription>

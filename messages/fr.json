@@ -143,7 +143,66 @@
             },
             "col2": {
                 "title": "Ressources",
-                "link1": "Conditions d'utilisation",
+                "link1": {
+                    "title": "Conditions d'utilisation",
+                    "dialog": {
+                        "intro": "Bienvenue sur SwiftMove. En utilisant notre site et nos services, vous acceptez de respecter les présentes conditions générales d'utilisation (les \"Conditions\"). Veuillez les lire attentivement avant d'utiliser nos services.",
+                        "1": {
+                            "title": "1. Acceptation des Conditions",
+                            "description": "En accédant à notre site web, en vous inscrivant ou en utilisant nos services de livraison et d’investissement, vous acceptez pleinement les présentes Conditions. Si vous n'acceptez pas ces termes, vous devez cesser d'utiliser nos services immédiatement."
+                        },
+                        "2": {
+                            "title": "2. Description des Services",
+                            "description": "<b>SwiftMove</b> est une entreprise de livraison proposant des services logistiques via des vélos, motos, voitures, et camions, ainsi qu'une plateforme d'investissement permettant aux utilisateurs d'investir dans notre projet de développement. Nous nous engageons à fournir un service fiable, sécurisé et conforme aux standards écologiques."
+                        },
+                        "3": {
+                            "title": "3. Compte Utilisateur",
+                            "description": "• <b>Création de Compte</b> : Pour accéder à certains services, vous devez créer un compte en fournissant des informations exactes et complètes (nom, email, mot de passe). <br></br> • <b>Responsabilité du Compte</b> : Vous êtes responsable de la sécurité de vos identifiants de connexion. Toute activité effectuée via votre compte vous est attribuée. Informez-nous immédiatement en cas de compromission de vos informations de connexion. <br></br> • <b>Résiliation de Compte</b> : Nous nous réservons le droit de suspendre ou de supprimer tout compte en cas de violation des présentes Conditions ou d'activité frauduleuse."
+                        },
+                        "4": {
+                            "title": "4. Investissement",
+                            "description": "<b>SwiftMove</b> propose une plateforme d’investissement ouverte à toute personne majeure souhaitant participer à notre projet. En investissant dans SwiftMove : <br></br> • <b>Risques</b> : Vous reconnaissez que tout investissement comporte un risque financier. SwiftMove ne garantit pas des rendements fixes ou sûrs. <br></br> • <b>Transparence</b> : Nous nous engageons à fournir des informations régulières sur les performances de l'entreprise et sur l'utilisation des fonds investis. <br></br> • <b>Conditions d'investissement</b> : Les montants minimaux, les modalités de retrait et d'autres détails financiers spécifiques sont précisés sur notre page dédiée à l'investissement."
+                        },
+                        "5": {
+                            "title": "5. Utilisation des Services de Livraison",
+                            "description": "• <b>Disponibilité des Services</b> : Nos services de livraison sont disponibles dans les zones spécifiées sur notre site. Les délais de livraison peuvent varier selon la région et le mode de transport. <br></br> • <b>Obligations des Utilisateurs</b> : Vous devez fournir des informations précises et complètes pour toute commande de livraison. Vous êtes responsable de la bonne réception des colis envoyés. <br></br> • <b>Politique de Remboursement</b> : Les remboursements et compensations en cas de retard ou de livraison incorrecte seront étudiés au cas par cas."
+                        },
+                        "6": {
+                            "title": "6. Tarifs et Paiements",
+                            "description": "• <b>Tarification</b> : Les tarifs de nos services de livraison sont indiqués sur notre site et peuvent varier selon le type de transport et la destination. Les frais d'investissement et autres charges liées à la participation financière seront également clairement indiqués avant tout engagement. <br></br> • <b>Moyens de Paiement</b> : Nous acceptons les paiements par carte bancaire, virement bancaire, et tout autre mode de paiement spécifié sur le site. <br></br> • <b>Retards et Défauts de Paiement</b> : Tout défaut de paiement peut entraîner une suspension de vos services jusqu'à la régularisation."
+                        },
+                        "7": {
+                            "title": "7. Propriété Intellectuelle",
+                            "description": "Tout contenu présent sur le site (textes, images, logos, graphiques, etc.) est la propriété de <b>SwiftMove</b> ou de ses partenaires. Toute reproduction, modification, distribution sans autorisation préalable est strictement interdite."
+                        },
+                        "8": {
+                            "title": "8. Limitation de Responsabilité",
+                            "description": "• <b>Disponibilité</b> : Nous nous efforçons de maintenir notre site et nos services accessibles en permanence, mais ne garantissons pas une disponibilité continue. <br></br> • <b>Responsabilité</b> : SwiftMove n'est pas responsable des pertes financières, dommages indirects ou immatériels découlant de l'utilisation de nos services, sauf en cas de négligence grave ou intentionnelle."
+                        },
+                        "9": {
+                            "title": "9. Politique de Confidentialité",
+                            "description": "La protection de vos données personnelles est primordiale pour nous. Nous traitons vos données conformément à notre <b>Politique de Confidentialité</b>, disponible sur notre site. En utilisant nos services, vous acceptez la collecte et l'utilisation de vos données comme indiqué dans cette politique."
+                        },
+                        "10": {
+                            "title": "10. Modifications des Conditions",
+                            "description": "SwiftMove se réserve le droit de modifier ou de mettre à jour ces Conditions à tout moment. Les utilisateurs seront informés de tout changement significatif par e-mail ou via une notification sur le site. L’utilisation continue des services après modification vaut acceptation des nouvelles Conditions."
+                        },
+                        "11": {
+                            "title": "11. Résiliation",
+                            "description": "Nous nous réservons le droit de résilier ou suspendre votre accès à nos services en cas de non respect des présentes Conditions, ou pour toute autre raison jugée nécessaire."
+                        },
+                        "12": {
+                            "title": "12. Droit Applicable et Juridiction",
+                            "description": " Ces Conditions sont régies par les lois en vigueur du pays dans lequel SwiftMove est basé. En cas de litige, les tribunaux compétents seront ceux de la juridiction du siège social de SwiftMove."
+                        },
+                        "13": {
+                            "title": "13. Contact",
+                            "description": "Pour toute question relative aux présentes Conditions ou pour toute demande d'information supplémentaire, vous pouvez nous contacter à l'adresse suivante : <br></br> • <b>Email</b> : support@swiftmove.com <br></br> • <b>Téléphone</b> : +[numéro de téléphone]"
+                        },
+                        "conclusion1": "En utilisant les services de <b>SwiftMove</b>, vous reconnaissez avoir lu, compris et accepté les présentes Conditions Générales d'Utilisation.",
+                        "conclusion2": " Cela assure une protection légale à l'entreprise tout en restant transparent envers les utilisateurs et investisseurs."
+                    }
+                },
                 "link2": "Politique de confidentialité",
                 "link3": "A propos"
             },

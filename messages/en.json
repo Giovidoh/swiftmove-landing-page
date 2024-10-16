@@ -143,7 +143,66 @@
             },
             "col2": {
                 "title": "Resources",
-                "link1": "Terms of use",
+                "link1": {
+                    "title": "Terms of use",
+                    "dialog": {
+                        "intro": "Welcome to SwiftMove. By using our site and services, you agree to be bound by these Terms of Use (“Terms”). Please read them carefully before using our services.",
+                        "1": {
+                            "title": "1. Acceptance of Conditions",
+                            "description": "By accessing our website, registering or using our delivery and investment services, you fully accept these Terms. If you do not agree to these Terms, you must stop using our services immediately."
+                        },
+                        "2": {
+                            "title": "2. Description of Services",
+                            "description": "<b>SwiftMove</b> is a delivery company offering logistics services via bicycles, motorcycles, cars and trucks, as well as an investment platform enabling users to invest in our development project. We are committed to providing a reliable, safe and environmentally friendly service."
+                        },
+                        "3": {
+                            "title": "3. User account",
+                            "description": "• <b>Account creation</b>: To access certain services, you must create an account by providing accurate and complete information (name, email, password). <br></br> • <b>Account Responsibility</b>: You are responsible for the security of your login credentials. Any activity carried out via your account is attributed to you. Notify us immediately if your login information is compromised. <br></br> • <b>Account Termination</b>: We reserve the right to suspend or terminate any account for violation of these Terms or fraudulent activity."
+                        },
+                        "4": {
+                            "title": "4. Investment",
+                            "description": "<b>SwiftMove</b> offers an investment platform open to all adults wishing to participate in our project. By investing in SwiftMove: <br></br> • <b>Risks</b>: You acknowledge that any investment involves a financial risk. SwiftMove does not guarantee fixed or secure returns. <br></br> • <b>Transparency</b>: We undertake to provide regular information on the company's performance and the use of the funds invested. <br></br> • <b>Investment conditions</b>: Minimum amounts, withdrawal terms and other specific financial details are specified on our dedicated investment page."
+                        },
+                        "5": {
+                            "title": "5. Use of Delivery Services",
+                            "description": "• <b>Availability of Services</b>: Our delivery services are available in the areas specified on our site. Delivery times may vary according to region and mode of transport. <br></br> • <b>Obligations of Users</b>: You must provide accurate and complete information for all delivery orders. You are responsible for the correct reception of the parcels sent. <br></br> • <b>Refund Policy</b>: Refunds and compensation for late or incorrect delivery will be considered on a case-by-case basis."
+                        },
+                        "6": {
+                            "title": "6. Rates and payments",
+                            "description": "• <b>Rates</b>: The rates for our delivery services are shown on our website and may vary according to the type of transport and destination. Investment costs and other charges related to financial participation will also be clearly indicated before any commitment. <br></br> • <b>Payment methods</b>: We accept payment by credit card, bank transfer, and any other payment method specified on the site. <br></br> • <b>Late payment and non-payment</b>: Any non-payment may result in suspension of your services until the situation is remedied."
+                        },
+                        "7": {
+                            "title": "7. Intellectual Property",
+                            "description": "All content on the site (text, images, logos, graphics, etc.) is the property of <b>SwiftMove</b> or its partners. Any unauthorized reproduction, modification or distribution is strictly prohibited."
+                        },
+                        "8": {
+                            "title": "8. Limitation of liability",
+                            "description": "• <b>Availability</b>: We strive to keep our site and services accessible at all times, but do not guarantee continuous availability. <br></br> • <b>Liability</b>: SwiftMove is not liable for financial loss, indirect or consequential damages arising from the use of our services, except in cases of gross negligence or intent."
+                        },
+                        "9": {
+                            "title": "9. Privacy Policy",
+                            "description": "The protection of your personal data is important to us. We process your data in accordance with our <b>Privacy Policy</b>, which is available on our website. By using our services, you consent to the collection and use of your data as set out in this policy."
+                        },
+                        "10": {
+                            "title": "10. Modifications to the Conditions",
+                            "description": "SwiftMove reserves the right to modify or update these Terms at any time. Users will be notified of any significant changes by e-mail or via a notice on the site. Continued use of the services after modification constitutes acceptance of the new Terms."
+                        },
+                        "11": {
+                            "title": "11. Cancellation",
+                            "description": "We reserve the right to terminate or suspend your access to our services in the event of non-compliance with these Terms, or for any other reason deemed necessary."
+                        },
+                        "12": {
+                            "title": "12. Applicable law and jurisdiction",
+                            "description": "These Conditions are governed by the laws of the country in which SwiftMove is based. In the event of a dispute, the competent courts will be those of the jurisdiction of SwiftMove's registered office."
+                        },
+                        "13": {
+                            "title": "13. Contact",
+                            "description": "If you have any questions about these Terms or would like further information, please contact us at the following address: <br></br> • <b>Email</b>: support@swiftmove.com <br></br> • <b>Phone</b>: +[phone number]"
+                        },
+                        "conclusion1": "By using the <b>SwiftMove</b> services, you acknowledge that you have read, understood and accepted these Terms and Conditions of Use.",
+                        "conclusion2": "This ensures legal protection for the company, while remaining transparent to users and investors."
+                    }
+                },
                 "link2": "Privacy policy",
                 "link3": "About us"
             },

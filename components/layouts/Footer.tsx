@@ -736,62 +736,35 @@ const Footer = () => {
 
                                 <Dialog>
                                     <DialogTrigger className="text-start">
-                                        {t("col3.title")}
+                                        {t("col2.link3.title")}
                                     </DialogTrigger>
                                     <DialogContent>
                                         <DialogHeader>
                                             <div className="flex flex-col items-center gap-5">
                                                 <DialogTitle className="uppercase">
-                                                    {t("col3.title")}
+                                                    {t("col2.link3.title")}
                                                 </DialogTitle>
                                                 <ScrollArea className="w-full max-h-[600px] px-5">
                                                     <DialogDescription className="flex flex-col text-primary gap-4">
-                                                        <div className="border-b pb-3">
-                                                            <p className="font-semibold text-pretty text-justify">
-                                                                Bienvenue sur
-                                                                SwiftMove. En
-                                                                utilisant notre
-                                                                site et nos
-                                                                services, vous
-                                                                acceptez de
-                                                                respecter les
-                                                                présentes
-                                                                conditions
-                                                                générales
-                                                                d'utilisation
-                                                                (les
-                                                                "Conditions").
-                                                                Veuillez les
-                                                                lire
-                                                                attentivement
-                                                                avant d'utiliser
-                                                                nos services.
-                                                            </p>
-                                                        </div>
-                                                        <div className="flex flex-col border-b gap-2 pb-3">
-                                                            <h3 className="font-semibold text-lg">
-                                                                1. Acceptation
-                                                                des Conditions
-                                                            </h3>
+                                                        <div className="flex flex-col gap-2 pb-3">
                                                             <p className="text-pretty text-justify">
-                                                                Bienvenue sur
-                                                                SwiftMove. En
-                                                                utilisant notre
-                                                                site et nos
-                                                                services, vous
-                                                                acceptez de
-                                                                respecter les
-                                                                présentes
-                                                                conditions
-                                                                générales
-                                                                d'utilisation
-                                                                (les
-                                                                "Conditions").
-                                                                Veuillez les
-                                                                lire
-                                                                attentivement
-                                                                avant d'utiliser
-                                                                nos services.
+                                                                {t.rich(
+                                                                    "col2.link3.dialog.1",
+                                                                    {
+                                                                        br: () => (
+                                                                            <br />
+                                                                        ),
+                                                                        b: (
+                                                                            chunks
+                                                                        ) => (
+                                                                            <b>
+                                                                                {
+                                                                                    chunks
+                                                                                }
+                                                                            </b>
+                                                                        ),
+                                                                    }
+                                                                )}
                                                             </p>
                                                         </div>
                                                     </DialogDescription>

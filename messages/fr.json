@@ -247,7 +247,12 @@
                         "conclusion2": "Cela garantit à vos utilisateurs et investisseurs une transparence sur la gestion de leurs données personnelles et renforce la confiance envers l’entreprise."
                     }
                 },
-                "link3": "A propos"
+                "link3": {
+                    "title": "A propos",
+                    "dialog": {
+                        "1": "Chez <b>SwiftMove</b>, nous redéfinissons la livraison moderne tout en offrant une opportunité unique d'investissement. Fondée avec la vision de rendre les livraisons plus rapides, écologiques et accessibles, nous avons créé un réseau de transport diversifié, incluant vélos, motos, voitures et camions. Notre mission est de fournir des solutions de livraison adaptées aux besoins des particuliers et des entreprises tout en minimisant notre empreinte carbone. <br></br> En parallèle de nos services logistiques, SwiftMove vous propose une opportunité d'investissement dans un secteur en pleine expansion. Le boom du commerce en ligne et la demande croissante pour des livraisons rapides nous placent dans une position idéale pour croître rapidement. En rejoignant notre projet, vous investissez dans une entreprise agile, innovante et engagée vers un avenir durable. <br></br> Nos valeurs sont simples : <br></br> • <b>Innovation</b> : Nous utilisons les dernières technologies pour optimiser les trajets, réduire les délais de livraison et améliorer l'efficacité. <br></br> • <b>Écologie</b> : Nous privilégions les moyens de transport verts comme les vélos et motos électriques pour réduire l'impact environnemental. <br></br> • <b>Rentabilité</b> : Grâce à une gestion efficace et un modèle économique solide, nous offrons aux investisseurs des rendements attractifs et durables. <br></br> Que vous soyez un utilisateur de nos services ou un investisseur à la recherche d'opportunités de croissance, <b>SwiftMove</b> vous invite à faire partie de cette aventure. Ensemble, construisons l'avenir de la logistique."
+                    }
+                }
             },
             "col3": {
                 "title": "Contact",

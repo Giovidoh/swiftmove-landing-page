@@ -247,7 +247,12 @@
                         "conclusion2": "This guarantees your users and investors transparency in the management of their personal data, and reinforces trust in the company."
                     }
                 },
-                "link3": "About us"
+                "link3": {
+                    "title": "About us",
+                    "dialog": {
+                        "1": "At <b>SwiftMove</b>, we're redefining modern delivery while offering a unique investment opportunity. Founded with the vision of making deliveries faster, greener and more accessible, we've created a diverse transportation network, including bikes, motorcycles, cars and trucks. Our mission is to provide delivery solutions tailored to the needs of individuals and businesses, while minimizing our carbon footprint. <br></br> Alongside our logistics services, SwiftMove offers you an investment opportunity in a fast-growing sector. The boom in e-commerce and the growing demand for fast deliveries put us in an ideal position to grow rapidly. By joining our project, you're investing in an agile, innovative company committed to a sustainable future. <br></br> Our values are simple: <br></br> • <b>Innovation</b>: We use the latest technologies to optimize routes, reduce delivery times and improve efficiency. <br></br> • <b>Ecology</b>: We favor green means of transport, such as electric bikes and motorcycles, to reduce environmental impact. <br></br> • <b>Profitability</b>: Thanks to efficient management and a solid business model, we offer investors attractive, sustainable returns. <br></br> Whether you're a user of our services or an investor looking for growth opportunities, <b>SwiftMove</b> invites you to be part of this adventure. Let's build the future of logistics together."
+                    }
+                }
             },
             "col3": {
                 "title": "Contact",
